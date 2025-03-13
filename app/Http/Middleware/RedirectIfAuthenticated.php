@@ -29,7 +29,7 @@ class RedirectIfAuthenticated
 
         foreach ($guards as $guard) {
             if (Auth::guard($guard)->check()) {
-                return redirect($this->redirectTo($request, $guard))->toResponse($request);
+                return redirect($this->redirectTo($request, $guard));
             }
         }
 
