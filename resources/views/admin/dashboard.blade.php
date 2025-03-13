@@ -1,4 +1,4 @@
-<x-app-layout>
+<x-admin-app-layout>
     <div class="container mx-auto mt-10">
         <h1 class="text-3xl font-bold text-center text-red-500">Admin Dashboard</h1>
         <div class="grid grid-cols-1 gap-4 mt-10 md:grid-cols-2 lg:grid-cols-3">
@@ -16,4 +16,4 @@
             </div>
         </div>
     </div>
-</x-app-layout>
+</x-admin-app-layout>
